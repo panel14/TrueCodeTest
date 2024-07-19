@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueCodeTest.Domain", "TrueCodeTest.Domain\TrueCodeTest.Domain.csproj", "{AB7090E6-818F-4B06-99B7-C8121292F698}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueCodeTest.Application", "TrueCodeTest.Application\TrueCodeTest.Application.csproj", "{55AD4C7C-37EC-4EAC-95EA-5F2307211D47}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueCodeTest.Infrastructure.Web", "TrueCodeTest.Infrastructure.Web\TrueCodeTest.Infrastructure.Web.csproj", "{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueCodeTest.Infrastructure.Storage", "TrueCodeTest.Infrastructure.Storage\TrueCodeTest.Infrastructure.Storage.csproj", "{66D107BA-86FC-406D-BE6D-938BD1D9703D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueCodeTest.Api", "TrueCodeTest.Api\TrueCodeTest.Api.csproj", "{B894EDF6-EF53-401B-AF69-DB891092B095}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TrueCodeTest.Infrastructure", "TrueCodeTest.Infrastructure", "{D05C055F-4D3E-4B0D-8D4D-F561886453DA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C658B552-6391-4E0C-AFBC-147E7AFE4A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB7090E6-818F-4B06-99B7-C8121292F698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7090E6-818F-4B06-99B7-C8121292F698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7090E6-818F-4B06-99B7-C8121292F698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7090E6-818F-4B06-99B7-C8121292F698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AD4C7C-37EC-4EAC-95EA-5F2307211D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AD4C7C-37EC-4EAC-95EA-5F2307211D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AD4C7C-37EC-4EAC-95EA-5F2307211D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AD4C7C-37EC-4EAC-95EA-5F2307211D47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D107BA-86FC-406D-BE6D-938BD1D9703D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D107BA-86FC-406D-BE6D-938BD1D9703D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D107BA-86FC-406D-BE6D-938BD1D9703D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D107BA-86FC-406D-BE6D-938BD1D9703D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B894EDF6-EF53-401B-AF69-DB891092B095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B894EDF6-EF53-401B-AF69-DB891092B095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B894EDF6-EF53-401B-AF69-DB891092B095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B894EDF6-EF53-401B-AF69-DB891092B095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C658B552-6391-4E0C-AFBC-147E7AFE4A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C658B552-6391-4E0C-AFBC-147E7AFE4A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C658B552-6391-4E0C-AFBC-147E7AFE4A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C658B552-6391-4E0C-AFBC-147E7AFE4A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17E456DE-2C98-4FA9-A2EC-5A7B6C219D7C} = {D05C055F-4D3E-4B0D-8D4D-F561886453DA}
+		{66D107BA-86FC-406D-BE6D-938BD1D9703D} = {D05C055F-4D3E-4B0D-8D4D-F561886453DA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC640536-2967-47AD-BBB8-F41CCDFF5D83}
+	EndGlobalSection
+EndGlobal

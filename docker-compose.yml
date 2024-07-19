@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+
+  postgres:
+    image: postgres:latest
+    container_name: truecodetest-postgres
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=password
+    ports:
+        - 5432:5432
+
+  truecodetest.api:
+    image: ${DOCKER_REGISTRY-}truecodetestapi
+    build:
+      context: .
+      dockerfile: TrueCodeTest.Api/Dockerfile
+    environment:
+        - "ConnectionStrings__Database=Host=postgres;Port=5432;Database=ToDoBase;Username=postgres;Password=password;"
